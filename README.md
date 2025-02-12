@@ -12,11 +12,17 @@ The project follows a standard machine learning workflow, including:
 **Data Collection**: A dataset of liver ultrasound images, annotated by expert radiologists, was used for training and evaluation. The dataset was acquired as part of a study conducted by the Uganda Schistosomiasis Multidisciplinary Research Centre (U-SMRC), a leading Ugandan institution in schistosomiasis research. The dataset originates from an adult case-control study investigating risk factors for severe schistosomal morbidity in communities near Lake Victoria and Lake Albert, two distinct epidemiological settings. The study individuals were aged between 18 to 50 years. Ultrasound sonography, a common diagnostic technique, was performed using the Logiq e ultrasound system.
 
 **Image Preprocessing**: Images were preprocessed to enhance features and standardize input for the model. This included resizing, normalization, and potentially noise reduction techniques.
+
 **Feature Extraction**: Relevant features were extracted from the images automatically using deep learning methods. Features could include texture, shape, and intensity patterns associated with periportal fibrosis.
+
 **Model Selection and Training**: Convolutional Neural Networks were explored and trained to extract features and corresponding labels.
+
 **Model Evaluation**: The trained model was rigorously evaluated on a separate test dataset to assess the performance using metrics such as accuracy, precision, recall, and F1-score.
+
 **Visualization and Interpretation**: Results were visualized using techniques like confusion matrices and ROC curves to understand model behavior and potential areas for improvement.
+
 **Key Findings**
+
 This study highlights the potential of a deep learning-based model, in this case, **model 2** for accurately identifying periportal fibrosis in ultrasound images. The model's impressive **AUC** of 0.87, coupled with strong performance metrics including 80% test **accuracy**, 76% **precision**, 84% **recall**, and an 80% **F1 score**, underscores its ability to effectively discriminate between images with and without periportal fibrosis. 
 This robust performance, particularly the balanced sensitivity (84%) and specificity (84%) suggests its potential for real-world clinical application, offering an earlier and more accurate diagnosis of periportal fibrosis.
 
@@ -45,23 +51,37 @@ While direct comparisons are challenging due to variations in datasets, methodol
 **Similarities**
 
 a)	Objective
+
 Both our study and the referenced study share the primary objective of developing an automated system for assessing liver fibrosis severity using ultrasound images. This highlights a growing interest in leveraging AI for non-invasive liver disease diagnosis.
+
 b)	Use of Deep Learning 
+
 Both studies employed deep learning, specifically CNNs, as the core technology for image analysis and classification. This demonstrates the increasing recognition of deep learning's power in medical image interpretation.
+
 c)	Focus on Cirrhosis Detection
+
 Both studies emphasised the detection of cirrhosis, a severe stage of liver fibrosis, as a key clinical outcome. This underscores the importance of early and accurate cirrhosis identification for effective patient management.
+
 d)	Strong Performance
+
 Both our model and the DCNN in the referenced study achieved high AUC values (0.87 in our study and 0.857 in the referenced study) for classifying cirrhosis, indicating strong discriminatory power. This suggests the potential of deep learning-based approaches for accurate fibrosis assessment.
 
 **Differences**
 
 a)	Target Population
+
  While our study focused on periportal fibrosis, the referenced study targeted a broader population of patients with chronic liver diseases, including hepatitis B and C. This difference in target populations could influence the generalisability of the models to different disease contexts.
+ 
 b)	Dataset Characteristics
+
 The referenced study employed a dataset of ultrasound images paired with histopathological results from liver biopsy or liver resection. Our dataset may differ in terms of image acquisition protocols, patient demographics, and disease severity distribution, which could impact model training and performance comparison.
+
 c)	Evaluation Metrics
+
 While both studies utilised AUC as a primary performance metric, other evaluation metrics might have differed. This necessitates careful consideration when comparing the reported results and drawing conclusions about relative performance.
+
 d)	Clinical Workflow Integration
+
 The referenced study primarily focused on evaluating the DCNN's diagnostic performance compared to radiologists. Our study could potentially extend beyond diagnostic assessment to explore integration into clinical workflows for personalised patient management, such as predicting disease progression or treatment response.
 
 Further research with larger and more diverse datasets, incorporating standardised evaluation protocols and head-to-head comparisons, is needed to definitively establish the relative strengths and limitations of different approaches. By building upon the findings of previous studies, including the referenced work, we can advance the development of robust and reliable AI-powered tools for liver fibrosis assessment and ultimately improve patient care.
