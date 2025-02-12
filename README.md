@@ -23,8 +23,9 @@ This robust performance, particularly the balanced sensitivity (84%) and specifi
 
 **Code Structure**
 
-model_1.ipynb: Contains scripts for data model 1 test results.
-model_2.ipynb: Contains scripts for data model 2 test results.
+model_1.ipynb: Contains scripts for  model 1 test results.
+
+model_2.ipynb: Contains scripts for  model 2 test results.
 
 
 **Future Work**
