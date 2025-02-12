@@ -41,7 +41,9 @@ Improving the interpretability of the model's predictions using techniques like 
 Collecting longitudinal data, including follow-up ultrasound images and clinical outcomes, would enable evaluation of the model's ability to predict disease progression and treatment response over time. This would pave the way for integrating the model into clinical workflows for personalised patient management, potentially leading to more targeted and effective treatment strategies.
 5.	**Comparative Analysis**
 While direct comparisons are challenging due to variations in datasets, methodologies, and evaluation metrics, contextualising our findings within the existing literature is essential. Several studies have explored automated periportal fibrosis detection using ultrasound images, employing various techniques and achieving varying levels of success. One notable study by Lee et al. (2019) focused on the application of a deep convolutional neural network (DCNN) for automated classification of liver fibrosis using ultrasonography (US) images.
+
 **Similarities**
+
 a)	Objective
 Both our study and the referenced study share the primary objective of developing an automated system for assessing liver fibrosis severity using ultrasound images. This highlights a growing interest in leveraging AI for non-invasive liver disease diagnosis.
 b)	Use of Deep Learning 
@@ -50,7 +52,9 @@ c)	Focus on Cirrhosis Detection
 Both studies emphasised the detection of cirrhosis, a severe stage of liver fibrosis, as a key clinical outcome. This underscores the importance of early and accurate cirrhosis identification for effective patient management.
 d)	Strong Performance
 Both our model and the DCNN in the referenced study achieved high AUC values (0.87 in our study and 0.857 in the referenced study) for classifying cirrhosis, indicating strong discriminatory power. This suggests the potential of deep learning-based approaches for accurate fibrosis assessment.
+
 **Differences**
+
 a)	Target Population
  While our study focused on periportal fibrosis, the referenced study targeted a broader population of patients with chronic liver diseases, including hepatitis B and C. This difference in target populations could influence the generalisability of the models to different disease contexts.
 b)	Dataset Characteristics
