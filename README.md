@@ -46,43 +46,7 @@ Improving the interpretability of the model's predictions using techniques like 
 4.	**Longitudinal Studies and Clinical Integration**
 Collecting longitudinal data, including follow-up ultrasound images and clinical outcomes, would enable evaluation of the model's ability to predict disease progression and treatment response over time. This would pave the way for integrating the model into clinical workflows for personalised patient management, potentially leading to more targeted and effective treatment strategies.
 5.	**Comparative Analysis**
-While direct comparisons are challenging due to variations in datasets, methodologies, and evaluation metrics, contextualising our findings within the existing literature is essential. Several studies have explored automated periportal fibrosis detection using ultrasound images, employing various techniques and achieving varying levels of success. One notable study by Lee et al. (2019) focused on the application of a deep convolutional neural network (DCNN) for automated classification of liver fibrosis using ultrasonography (US) images.
-
-**Similarities**
-
-a)	Objective
-
-Both our study and the referenced study share the primary objective of developing an automated system for assessing liver fibrosis severity using ultrasound images. This highlights a growing interest in leveraging AI for non-invasive liver disease diagnosis.
-
-b)	Use of Deep Learning 
-
-Both studies employed deep learning, specifically CNNs, as the core technology for image analysis and classification. This demonstrates the increasing recognition of deep learning's power in medical image interpretation.
-
-c)	Focus on Cirrhosis Detection
-
-Both studies emphasised the detection of cirrhosis, a severe stage of liver fibrosis, as a key clinical outcome. This underscores the importance of early and accurate cirrhosis identification for effective patient management.
-
-d)	Strong Performance
-
-Both our model and the DCNN in the referenced study achieved high AUC values (0.87 in our study and 0.857 in the referenced study) for classifying cirrhosis, indicating strong discriminatory power. This suggests the potential of deep learning-based approaches for accurate fibrosis assessment.
-
-**Differences**
-
-a)	Target Population
-
- While our study focused on periportal fibrosis, the referenced study targeted a broader population of patients with chronic liver diseases, including hepatitis B and C. This difference in target populations could influence the generalisability of the models to different disease contexts.
- 
-b)	Dataset Characteristics
-
-The referenced study employed a dataset of ultrasound images paired with histopathological results from liver biopsy or liver resection. Our dataset may differ in terms of image acquisition protocols, patient demographics, and disease severity distribution, which could impact model training and performance comparison.
-
-c)	Evaluation Metrics
-
-While both studies utilised AUC as a primary performance metric, other evaluation metrics might have differed. This necessitates careful consideration when comparing the reported results and drawing conclusions about relative performance.
-
-d)	Clinical Workflow Integration
-
-The referenced study primarily focused on evaluating the DCNN's diagnostic performance compared to radiologists. Our study could potentially extend beyond diagnostic assessment to explore integration into clinical workflows for personalised patient management, such as predicting disease progression or treatment response.
+While direct comparisons are challenging due to variations in datasets, methodologies, and evaluation metrics, contextualising our findings within the existing literature is essential. Several studies have explored automated periportal fibrosis detection using ultrasound images, employing various techniques and achieving varying levels of success. 
 
 Further research with larger and more diverse datasets, incorporating standardised evaluation protocols and head-to-head comparisons, is needed to definitively establish the relative strengths and limitations of different approaches. By building upon the findings of previous studies, including the referenced work, we can advance the development of robust and reliable AI-powered tools for liver fibrosis assessment and ultimately improve patient care.
 
