@@ -38,19 +38,16 @@ model_2.ipynb: Contains scripts for  model 2 test results.
 This study presents a promising approach to automated periportal fibrosis detection using ultrasound images and deep learning. 
 **Enhancing Model Capabilities and Scope:**
 1.	**Enhancing Data Diversity and Quality:**
-A key area for improvement lies in expanding the dataset to encompass peer-reviewed ultrasound images, a wider range of patient demographics, disease severities, and ultrasound image variations. This would significantly enhance the model's robustness and generalisability to real-world clinical scenarios. Collaborating with other institutions or leveraging publicly available datasets could facilitate access to larger and more diverse data. Exploring advanced data augmentation techniques, such as synthetic image generation, could further enhance the training process and address potential biases.
+Expand the dataset to include a variety of ultrasound images, patient demographics, disease severities, and image variations.
 2.	**Exploring Advanced Image Processing and Model Architectures:**
-Investigating advanced image preprocessing techniques like noise reduction, speckle filtering, and contrast enhancement could potentially improve image quality and lead to better feature extraction, ultimately improving model performance. Experimenting with alternative deep learning architectures, such as deeper CNNs, transfer learning with pre-trained models, or hybrid models combining CNNs with other techniques, could unlock further performance gains. Fine-tuning hyperparameters through techniques like grid search or Bayesian optimisation would optimise model configurations for enhanced accuracy and generalisation.
+Experiment with deeper CNNs, transfer learning, and hybrid models.
 3.	**Enhancing Interpretability and Validation:**
-Improving the interpretability of the model's predictions using techniques like saliency maps or attention mechanisms is crucial for building trust and understanding among healthcare professionals. External validation on an independent dataset from a different source is essential to robustly assess the model's generalisability and real-world performance, ensuring its reliability in diverse clinical settings.
+Validate the model with independent datasets from different sources.
 4.	**Longitudinal Studies and Clinical Integration:**
-Collecting longitudinal data, including follow-up ultrasound images and clinical outcomes, would enable evaluation of the model's ability to predict disease progression and treatment response over time. This would pave the way for integrating the model into clinical workflows for personalised patient management, potentially leading to more targeted and effective treatment strategies.
+Collect longitudinal data, including follow-up ultrasound images and clinical outcomes.
+Integrate the model into clinical workflows for personalised patient management.
 5.	**Comparative Analysis:**
 While direct comparisons are challenging due to variations in datasets, methodologies, and evaluation metrics, contextualising our findings within the existing literature is essential. Several studies have explored automated periportal fibrosis detection using ultrasound images, employing various techniques and achieving varying levels of success. 
-
-Further research with larger and more diverse datasets, incorporating standardised evaluation protocols and head-to-head comparisons, is needed to definitively establish the relative strengths and limitations of different approaches. By building upon the findings of previous studies, including the referenced work, we can advance the development of robust and reliable AI-powered tools for liver fibrosis assessment and ultimately improve patient care.
-
-By further developing and validating this AI-powered diagnostic tool, we can transform the landscape of liver disease management. This paves the way for more personalised, efficient, and accessible care for patients worldwide. This work represents a significant step towards realising the potential of AI in healthcare, empowering healthcare professionals, and improving the lives of patients affected by liver disease.
 
 
 Contact
