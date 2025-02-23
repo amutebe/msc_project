@@ -34,7 +34,7 @@ model_1.ipynb: Contains scripts for  model 1 test results.
 model_2.ipynb: Contains scripts for  model 2 test results.
 
 
-**Future Work**
+**Future Work:**
 This study presents a promising approach to automated periportal fibrosis detection using ultrasound images and deep learning. 
 **Enhancing Model Capabilities and Scope:**
 1.	**Enhancing Data Diversity and Quality:**
@@ -47,7 +47,7 @@ Validate the model with independent datasets from different sources.
 Collect longitudinal data, including follow-up ultrasound images and clinical outcomes.
 Integrate the model into clinical workflows for personalised patient management.
 5.	**Comparative Analysis:**
-While direct comparisons are challenging due to variations in datasets, methodologies, and evaluation metrics, contextualising our findings within the existing literature is essential. Several studies have explored automated periportal fibrosis detection using ultrasound images, employing various techniques and achieving varying levels of success. 
+While direct comparisons are challenging due to variations in datasets, methodologies, and evaluation metrics, contextualising our findings within the existing literature is essential. Several studies have explored automated liver fibrosis detection using ultrasound images, employing various techniques and achieving varying levels of success. 
 
 
 Contact
